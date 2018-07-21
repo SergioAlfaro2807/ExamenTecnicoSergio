@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styleRegistrarPokemon.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+
+    <title>PokeWeb</title>
+</head>
+
+<body>
+    <header>
+        <div class="logoPokemon">
+            <img src="../img/Logo_de_Pokémon_(EN).png" alt="Logo Pokemon">
+        </div>
+
+        <nav>
+            <a href="">Registro Pokémon</a>
+            <a href="">Lista Pokémon</a>
+            <a href="">Capturar Pokémon</a>
+        </nav>
+    </header>
+    <main>
+        <div id="ImagenPrincipal">
+            <img src="../img/New-Pokemon-Wallpapers-38.jpg" alt="">
+        </div>
+
+
+        <div id="Pokedex">
+            <img src="../img/Pokedex.jpg" alt="">
+        </div>
+
+        <div id="TituloRegistro">
+            <h1>Datos para registrar un Pokémon</h1>
+        </div>
+
+
+        <form action="RegistroPokemon">
+
+            <label id="NombrePokemonLabel" for="">Nombre Del Pokémon</label>
+            <input type="text" id="txtNombrePokemon" placeholder="Aron">
+
+            <label id="NumeroPokedexLabel" for="">Número Pokédex</label>
+            <input type="number" id="txtNumeroPokedex" placeholder="058">
+
+            
+            <label id="Tipo1Label" for="">Tipo 1</label>
+            <select name="" id="txtTipo1">
+                    <option value="">Seleccione tipo</option>
+                    <option id= "Bicho1">Bicho</option>
+                    <option value="">Siniestro</option>
+                    <option value="">Dragon</option>
+                    <option value="">Eléctrico</option>
+                    <option value="">Hada</option>
+                    <option value="">Luchador</option>
+                    <option value="">Fuego</option>
+                    <option value="">Volador</option>
+                    <option value="">Fantasma</option>
+                    <option value="">Planta</option>
+                    <option value="">Tierra</option>
+                    <option value="">Hielo</option>
+                    <option value="">Normal</option>
+                    <option value="">Veneno</option>
+                    <option value="">Psíquico</option>
+                    <option value="">Roca</option>
+                    <option value="">Acero</option>
+                    <option value="">Agua</option>
+            </select>
+
+            <label id="Tipo2Label" for="">Tipo 2</label>
+            <select id="txtTipo2">
+                <option value="">Seleccione tipo</option>
+                    <option value="">Bicho</option>
+                   <option value="">Siniestro</option>
+                   <option value="">Dragon</option>
+                   <option value="">Eléctrico</option>
+                   <option value="">Hada</option>
+                   <option value="">Luchador</option>
+                   <option value="">Fuego</option>
+                   <option value="">Volador</option>
+                   <option value="">Fantasma</option>
+                   <option value="">Planta</option>
+                   <option value="">Tierra</option>
+                   <option value="">Hielo</option>
+                   <option value="">Normal</option>
+                   <option value="">Veneno</option>
+                   <option value="">Psíquico</option>
+                   <option value="">Roca</option>
+                   <option value="">Acero</option>
+                   <option value="">Agua</option>
+                  </select>
+
+            <button type="button" id="btnSeleccionarImagen">Subir foto</button>
+
+            <button type="button" id="btnRegistrarPokemon">Registrar Pokémon</button>
+
+
+
+
+
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='https://cdn.jsdelivr.net/jquery.cloudinary/1.0.18/jquery.cloudinary.js' type='text/javascript'></script>
+    <script src="https://widget.cloudinary.com/global/all.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2"></script>
+    <script src="../js/servicioImagen.js"></script>
+<script src="../js/servicioRegistrar.js"></script>
+<script src="../js/controladorRegistrarPokémon.js"></script>
+</body>
+
+</html>
