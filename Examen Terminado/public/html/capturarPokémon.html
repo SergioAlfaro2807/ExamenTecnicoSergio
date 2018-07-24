@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styleCapturarPokémon.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+
+    <title>PokeWeb</title>
+</head>
+
+<body>
+    <header>
+        <div class="logoPokemon">
+            <img src="../img/Logo_de_Pokémon_(EN).png" alt="Logo Pokemon">
+        </div>
+
+        <nav>
+            <a href="landingPokémon.html">Inicio</a>
+            <a href="landingRegistrar.html">Registro Pokémon</a>
+            <a href="landingListar.html">Lista Pokémon</a>
+            <a href="landingCapturarPokémon.html">Capturar Pokémon</a>
+        </nav>
+    </header>
+    <main>
+        <div id="ImagenPrincipal">
+            <img src="../img/New-Pokemon-Wallpapers-38.jpg" alt="">
+        </div>
+
+
+        <div id="Pokedex">
+            <img src="../img/Pokedex.jpg" alt="">
+        </div>
+
+        <div id="TituloRegistro">
+            <h1>Datos para Capturar un Pokémon</h1>
+        </div>
+
+
+        <form action="RegistroPokemon">
+
+            <label id="NombreEntrenadorLabel" for="">Entrenador</label>
+            <select id="sltNombre">
+
+            </select>
+
+            <label id="PokemonLabel" for="">Pokémon</label>
+            <select id="sltPokemon">
+
+            </select>
+
+
+            <img src="../img/free_snorlax_pokemon_vector_by_emerald_stock-d7qp463.png" alt="">
+
+
+            <button type="button" id="btnCapturarPokemon">Registrar Captura</button>
+
+
+
+
+
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2"></script>
+
+    <script src="../js/servicioListarEntrenador.js"></script>
+    <script src="../js/servicioListarPokemon.js"></script>
+    <script src="../js/servicioCapturarPokemon.js"></script>
+    <script src="../js/controladorCaputarPokemon.js"></script>
+</body>
+
+</html>

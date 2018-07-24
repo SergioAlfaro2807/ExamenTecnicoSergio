@@ -1,0 +1,149 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    
+   
+}
+header{
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(to right, blue, #fe9126);
+}
+.logoPokemon img{
+    float: left;
+    text-align: center;
+    width: 30%;
+    font-size: 30px;
+    color: white;
+  
+    
+    
+}
+header nav{
+    margin-top: 5%;
+   margin-left: 43%;
+   font-size: 27px;
+  
+}
+header nav a{
+text-decoration: none;
+padding-left: 10px;
+color: 	#ffffff;
+}
+header nav a:hover{
+    color: 	#1f3438;
+}
+
+#ImagenPrincipal{
+    margin-top: 12%;
+    position: absolute;
+}
+#ImagenPrincipal img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#Pokemon1{
+
+position: absolute;
+margin-top: 13%;
+margin-left: 15%;
+
+}
+#Pokemon1 img{
+    width: 150px;
+    height: 180px;
+}
+
+
+#Pokemon2{
+
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 75%;
+    
+    }
+#Pokemon2 img{
+    width: 200px;
+    height: 180px;
+    }
+
+
+
+#txtBuscar{
+    
+
+    font-family: 'VT323';
+    width: 50%;
+    line-height: 200%;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 25%;
+    
+}
+
+#tblCapturas{
+    position: absolute;
+    color: #fe9126;
+    background-color:  #2B47AC;
+    font-family: 'VT323'; 
+    font-size: 22px;
+    margin-top: 25%;
+    margin-left: 32%;
+    text-align: center;
+    
+    
+}
+
+
+table th{
+    padding: 10px;
+}
+table thead tr th{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+#tblCapturas thead tr th{
+
+    border: 1px solid #ffffff; 
+
+}
+#tblCapturas tbody tr td{
+    
+    border: 1px solid 	#ffffff; 
+    text-align: center;
+    font-size: 110%;
+    padding-top: 1.5%;
+    vertical-align: middle;
+    padding-bottom: 2%;
+    height: 50px;
+    
+}
+
+
+
+
+tr:hover{
+    -webkit-box-shadow: 2px 2px 5px #999;
+    -moz-box-shadow: 2px 2px 5px #999;
+    filter: shadow(color=#999999, direction=135, strength=2);
+    box-shadow: solid #732969;
+}
+
+tr a:hover{
+    -webkit-box-shadow: 2px 2px 5px #999;
+    -moz-box-shadow: 2px 2px 5px #999;
+    filter: shadow(color=#999999, direction=135, strength=2);
+    box-shadow: solid #732969;
+}
